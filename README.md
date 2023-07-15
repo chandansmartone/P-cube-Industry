@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Product Display React App
 
 This project was an assestment for building a react application which display products (minimum styling with react material ui).
 
