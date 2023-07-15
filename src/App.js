@@ -43,7 +43,7 @@ const App = () => {
         ))}
       </Grid>
       <Button variant="contained" onClick={handleAddProduct} color="primary" sx={{ mt: 4 }}>
-        Add Product
+        Add Products
       </Button>
     </Box>
   );
