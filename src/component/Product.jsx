@@ -12,13 +12,11 @@ const Product = ({ product }) => {
    
     <div class="product-card">
     <div className='img'>
+      
    <SimpleImageSlider
-    style={{
-        
-        width: isMobileDevice() ? 300 : 896, // Adjust width based on device
-    }}
+   
 
-    width={440}
+    width={430}
     height={350}
     images={product.images}
     showBullets={true}

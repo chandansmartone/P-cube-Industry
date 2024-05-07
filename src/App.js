@@ -1,5 +1,7 @@
+import Home from "./component/Home";
 import Products from "./component/Products";
-
+import { Contact } from "./component/contact/Contact";
+import { Navbarmenu } from "./component/navbar/Navbarmenu";
 const App = () => {
 
 
@@ -8,8 +10,10 @@ const App = () => {
   return (
    <>
    <div>
+    <Home/>
     <Products/>
-    <img src="../images/product1.jpg" alt="" />
+    <Contact/>
+    
 
    </div>
    </>

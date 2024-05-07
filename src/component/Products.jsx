@@ -9,6 +9,7 @@ import imag22 from "../images/product22.jpg"
 import imag31 from "../images/product31.jpg"
 import imag32 from "../images/product32.jpg"
 import imag33 from "../images/product33.jpg"
+import styled from "styled-components";
 
 const Products = () => {
   const products = [
@@ -117,15 +118,34 @@ const Products = () => {
   console.log(products);
   
   return (
-   
+   <>
+   <StyledHeader>Products</StyledHeader>
+      <StyledLine />
     <div className="product-container">
+      
+
     {products.map((product, index) => (
       <Product key={index} product={product} />
     ))}
   </div>
+  </>
   )
 }
+
 
 export default Products
 
 
+const StyledHeader = styled.h2`
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+`;
+
+const StyledLine = styled.hr`
+  border: none;
+  border-bottom: 2px solid lightskyblue; // Light sky blue color
+  width: 20%;
+  margin: 0 auto 20px; // Centered and adds spacing below the line
+`;
