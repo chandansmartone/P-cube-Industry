@@ -26,7 +26,7 @@ export const Navbarmenu = () => {
           <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <a href="#product">Products</a>
         </li>
         <li>
         <a href="#contact">Contact</a>

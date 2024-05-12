@@ -118,9 +118,10 @@ const Products = () => {
   console.log(products);
   
   return (
-   <>
+   <section id="product">
    <StyledHeader>Products</StyledHeader>
       <StyledLine />
+
     <div className="product-container">
       
 
@@ -128,7 +129,7 @@ const Products = () => {
       <Product key={index} product={product} />
     ))}
   </div>
-  </>
+  </section>
   )
 }
 
